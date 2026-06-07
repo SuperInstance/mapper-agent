@@ -1,0 +1,12 @@
+[package]
+name = "mapper-agent"
+version = "0.1.0"
+edition = "2024"
+description = "Mapper algorithm for discovering topological structure in agent state spaces"
+license = "MIT"
+repository = "https://github.com/SuperInstance/mapper-agent"
+keywords = ["topology", "mapper", "tda", "clustering", "agent"]
+categories = ["algorithms", "data-structures", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
